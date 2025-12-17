@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://do-do-ui.onrender.com")
+@CrossOrigin(origins = "http://localhost:5173")
 public class MainController {
 
     @Autowired
